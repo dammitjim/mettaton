@@ -3,6 +3,6 @@ defmodule MettatonWeb.PageControllerTest do
 
   test "GET /", %{conn: conn} do
     conn = get conn, "/"
-    assert html_response(conn, 200) =~ "Welcome to Phoenix!"
+    assert html_response(conn, 200) =~ "Nifty landing page"
   end
 end
